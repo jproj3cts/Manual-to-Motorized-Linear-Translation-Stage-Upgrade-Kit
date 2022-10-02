@@ -44,6 +44,8 @@ boot.py contains options for changing the SSID and password of the network acces
 
 ## Mounting Components and Connecting the Flexure
 
+### The Flexure Connection
+
 <img src="Media/1.jpg" width=50% height=50% alt = "Connection" title="Connection">
 
 ## Device Operation
