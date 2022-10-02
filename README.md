@@ -5,7 +5,7 @@ The cheapest possible design for upgrading a manual linear translation stage to 
 
 ## Intro
 
-![Alt text]( Media/1.jpg)
+<img src="Media/1.jpg" width=50% height=50%>
 
 ## BILL OF MATERIALS
   ```
@@ -22,3 +22,5 @@ The cheapest possible design for upgrading a manual linear translation stage to 
 ## Programing the Pico
 
 ## Device Operation
+
+![Alt text]( Media/3.gif)
