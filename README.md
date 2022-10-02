@@ -28,7 +28,7 @@ By the time you have finished this guide you should have something vaguely resem
 
 <img src="Media/connections.png" width=50% height=50% alt = "connections" title="connections">
 
-You could mount the components with screws but, considering how cheap they are, hot glueing them directly into the project box works just as well.
+You could mount the components with screws but, considering how cheap they are, hot gluing them directly into the project box works just as well.
   
 ## Programing the Pico
 
