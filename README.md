@@ -44,6 +44,10 @@ boot.py contains options for changing the SSID and password of the network acces
 
 ## Mounting Components and Connecting the Flexure
 
+If you have chosen to print one of the provided L-brackets, the motor can be mounted to them at an adjustable height using M4 sized bolts. The bracket itself can then be mounted to a table or platform with M6 bolts. 
+
+After, one of the padded linkages should be attatched to the brass protusion from the motor. Which size you will need will vary depending on your printer and settings so I suggest printing all of them and trying each to find which one has the snuggest fit. The ideal case is a linkage that will only go on when hammered lightly with a soft mallet, as it is the least likely to move. 
+
 ### The Flexure Connection
 
 <img src="Media/1.jpg" width=50% height=50% alt = "Connection" title="Connection">
