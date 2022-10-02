@@ -9,7 +9,7 @@ This guide should walk you through the conversion of a manual linear translation
 
 It can also serve as a tutorial on how to remotely control a 28BYJ-48 stepper motor over wifi, via a website hosted on a Pi Pico W. This is likely a more general use case. If this is what you would like to do, then simply skip the Connecting Flexure section of this guide.
 
-By the time you have finished this guid you should have something vaguely resembling this final product.
+By the time you have finished this guide you should have something vaguely resembling this final product.
 ### The Final Product
 
 <img src="Media/2.jpg" width=50% height=50% alt = "the Final Product" title="The Final Product">
