@@ -50,6 +50,8 @@ After, one of the padded linkages should be attatched to the brass protusion fro
 
 Next, stretch the heatshrink over both the linkage and the micrometer of the translation stage. Then heat with a heat gun or soldering iron. Make sure to hold the motor and micrometer level as it sets and take care not to melt the 3D printed parts.
 
+The heatshrink is suprisingly ridgid in the rotational direction and has no problem transmitting force to the micrometer, whilst being flexible in the x-y plane. As a result, the axis of rotation of the motor and micrometer can be displaced up to ~5mm without any negative effects, this is shown below.
+
 ### The Flexure Connection
 
 <img src="Media/1.jpg" width=50% height=50% alt = "Connection" title="Connection">
