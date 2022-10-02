@@ -25,7 +25,7 @@ It can also serve as a tutorial on how to remotely control a 28BYJ-48 stepper mo
   
 ## Programing the Pico
 
-## Connecting Flexure
+## Connecting the Flexure
 
 <img src="Media/1.jpg" width=50% height=50% alt = "Connection" title="Connection">
 
