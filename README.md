@@ -7,7 +7,7 @@ The cheapest possible design for upgrading a manual linear translation stage to 
 
 This guide should walk you through the conversion of a manual linear translation stage to an automatic one, with a material cost on the order of ~$20. This is very economial considering the typical price of a motorised translation stage is around $1000, 4x that of the manual one.
 
-It can also serve as a tutorial on how to remotely control a 28BYJ-48 stepper motor over wifi, via a website hosted on a Pi Pico W. This is likely a more general use case. If this is what you would like to do, then simply skip the Mouinting Components and Connecting Flexure section of this guide.
+It can also serve as a tutorial on how to remotely control a 28BYJ-48 stepper motor over wifi, via a website hosted on a Pi Pico W. This is likely a more general use case. If this is what you would like to do, then simply skip the Mouinting Components and Connecting the Flexure section of this guide.
 
 By the time you have finished this guide you should have something vaguely resembling this final product.
 ### The Final Product
