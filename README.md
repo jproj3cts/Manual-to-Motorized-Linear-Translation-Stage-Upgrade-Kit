@@ -5,6 +5,10 @@ The cheapest possible design for upgrading a manual linear translation stage to 
 
 ## Intro
 
+This guide 
+
+It can also serve as a tutorial on how to remotely control a 28BYJ-48 stepper motor over wifi, via a website hosted on a Pi Pico W. This is likely a more general appliction of this project. If this is what you would like to do, then simply skip the Connecting Flexure section of this guide.
+
 <img src="Media/1.jpg" width=50% height=50%>
 
 ## BILL OF MATERIALS
@@ -17,9 +21,11 @@ The cheapest possible design for upgrading a manual linear translation stage to 
   20 mm diameter heat shrink
   ```
   
-## Connecting and Mounting Components
+## Mounting Components
   
 ## Programing the Pico
+
+## Connecting Flexure
 
 ## Device Operation
 
