@@ -9,7 +9,7 @@ This guide
 
 It can also serve as a tutorial on how to remotely control a 28BYJ-48 stepper motor over wifi, via a website hosted on a Pi Pico W. This is likely a more general appliction of this project. If this is what you would like to do, then simply skip the Connecting Flexure section of this guide.
 
-<img src="Media/1.jpg" width=50% height=50%>
+<img src="Media/1.jpg" width=50% height=50% title='The Final Product'>
 
 ## BILL OF MATERIALS
   ```
