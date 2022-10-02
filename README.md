@@ -10,4 +10,5 @@ A design for upgrading a manual linear translation stage to an automatic one, wh
   A suitable stepper motor driver board (this guide references the driver board in this pack: https://thepihut.com/products/stepper-motor-driver-pack)
   USB A to Micro USB 2.0 cable
   A suitable plastic project box (metal cannot be used as it will block wifi connectivity)
+  20 mm diameter heat shrink
   ```
