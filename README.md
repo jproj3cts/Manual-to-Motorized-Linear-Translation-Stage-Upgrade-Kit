@@ -48,7 +48,7 @@ If you have chosen to print one of the provided L-brackets, the motor can be mou
 
 After, one of the padded linkages should be attatched to the brass protusion from the motor. Which size you will need will vary depending on your printer and settings so I suggest printing all of them and trying each to find which one has the snuggest fit. The ideal case is a linkage that will only go on when hammered lightly with a soft mallet, as it is the least likely to move. 
 
-Next, stretch the heatshrink over both the linkage and the micrometer of the translation stage 
+Next, stretch the heatshrink over both the linkage and the micrometer of the translation stage. Then heat with a heat gun or soldering iron. Make sure to hold the motor and micrometer level as it sets and take care not to melt the 3D printed parts.
 
 ### The Flexure Connection
 
