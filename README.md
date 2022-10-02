@@ -3,6 +3,8 @@ A design for upgrading a manual linear translation stage to an automatic one, wh
 
 >>>The files for the design are available here but the project tutorial is currently a work in Progress.
 
+## Intro
+
 ## BILL OF MATERIALS
   ```
   Raspberry Pi Pico W
@@ -12,3 +14,7 @@ A design for upgrading a manual linear translation stage to an automatic one, wh
   USB A to Micro USB 2.0 cable
   20 mm diameter heat shrink
   ```
+  
+## Connecting and Mounting Components
+  
+## Programing the Pico
