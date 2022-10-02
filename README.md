@@ -60,6 +60,6 @@ The heatshrink is suprisingly ridgid in the rotational direction and has no prob
 
 After powering the pico, the device should automatically produce it's own wireles access point that can be connected to with a phone or computer in the usual way. After this, open any web browser and enter 192.168.4.1. This will take you to a form that will allow you to control the motor remotely.
 
-This process can be automated by connecting to 192.168.4.1?steps=N, where N is the number of steps (+ve or -ve) you wish to progress.
+This process can be automated by connecting to 192.168.4.1?steps=N, where N is the number of steps (+ve or -ve) you wish to progress. This can be done in python using the urllib library.
 
 ![Alt text]( Media/3.gif)
