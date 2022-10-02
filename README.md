@@ -3,7 +3,7 @@ A design for upgrading a manual linear translation stage to an automatic one, wh
 
 >>>The files for the design are available here but the project tutorial is currently a work in Progress.
 
-## BOM
+## BILL OF MATERIALS
   ```
   Raspberry Pi Pico W
   28BYJ-48 stepper motor (1/16th reduction) (or equivalent)
