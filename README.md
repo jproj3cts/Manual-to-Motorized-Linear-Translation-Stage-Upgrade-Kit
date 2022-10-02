@@ -28,7 +28,7 @@ By the time you have finished this guide you should have something vaguely resem
 
 Connect the Pico to the driver board like so. This can be done with solder or jumper wires. I recommend soldering for a more rugged connection.
 
-<img src="Media/connections.png" width=50% height=50% alt = "connections" title="connections">
+<img src="Media/connections2.png" width=50% height=50% alt = "connections" title="connections">
 
 After this, mount the boards in your project box, making sure to cut holes to allow the usb cable to plug into the Pico and the stepper motor cable to plug into the driver board. You could mount the components with screws but, considering how cheap they are, hot gluing them directly into the project box works just as well.
 
