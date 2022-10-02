@@ -5,6 +5,8 @@ The cheapest possible design for upgrading a manual linear translation stage to 
 
 ## Intro
 
+![Alt text]( Manual-to-Motorized-Linear-Translation-Stage-Upgrade-Kit/Media/1.jpg)
+
 ## BILL OF MATERIALS
   ```
   Raspberry Pi Pico W
