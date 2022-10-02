@@ -25,6 +25,8 @@ By the time you have finished this guide you should have something vaguely resem
   ```
   
 ## Mounting Components and Electrical Connections
+
+<img src="Media/connections.jpg" width=50% height=50% alt = "connections" title="connections">
   
 ## Programing the Pico
 
