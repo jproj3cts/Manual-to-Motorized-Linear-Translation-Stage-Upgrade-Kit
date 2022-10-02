@@ -21,7 +21,7 @@ It can also serve as a tutorial on how to remotely control a 28BYJ-48 stepper mo
   20 mm diameter heat shrink
   ```
   
-## Mounting Components
+## Mounting Components and Electrical Connections
   
 ## Programing the Pico
 
