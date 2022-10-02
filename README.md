@@ -26,9 +26,13 @@ By the time you have finished this guide you should have something vaguely resem
   
 ## Electrical Connections
 
+Connect the Pico to the driver board like so. This can be done with solder or jumper wires. I recommend soldering for a more rugged connection.
+
 <img src="Media/connections.png" width=50% height=50% alt = "connections" title="connections">
 
-You could mount the components with screws but, considering how cheap they are, hot gluing them directly into the project box works just as well.
+After this, mount the boards in your project box, making sure to cut holes to allow the usb cable to plug into the Pico and the stepper motor cable to plug into the driver board. You could mount the components with screws but, considering how cheap they are, hot gluing them directly into the project box works just as well.
+
+When powering the device in situ, the usb can be plugged into either a plug to USB transformer or a computer USB port; both should be more than capable of providing the current needed to power the stepper.
   
 ## Programing the Pico
 
