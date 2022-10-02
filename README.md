@@ -27,6 +27,8 @@ It can also serve as a tutorial on how to remotely control a 28BYJ-48 stepper mo
 
 This project is designed to work with micropython so first set the pico up for that, a good guide for this is available here: https://www.raspberrypi.com/documentation/microcontrollers/micropython.html.
 
+The networking aspect of this device is based off tinyweb (https://github.com/belyalov/tinyweb), so ensure that the tinyweb folder and logging.py file are uploaded the Pi Pico before uploading the boot.py script. This can be done using a Pico compatable IDE like Thonny (https://thonny.org/).
+
 ## Connecting the Flexure
 
 <img src="Media/1.jpg" width=50% height=50% alt = "Connection" title="Connection">
