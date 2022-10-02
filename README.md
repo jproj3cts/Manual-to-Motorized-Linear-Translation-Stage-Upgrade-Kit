@@ -62,4 +62,8 @@ After powering the pico, the device should automatically produce it's own wirele
 
 This process can be automated by connecting to 192.168.4.1?steps=N, where N is the number of steps (+ve or -ve) you wish to progress. This can be done in python using the urllib library.
 
+### A gif demonstrating the precision of the system (going from 0.5 to 0.5 on the micrometer).
+
 ![Alt text]( Media/3.gif)
+
+This reliability is sustainable over many rotations. In A recent test the micrometer was rotated 20 times forward then 20 back for a total of 800 rotations whilst maintaining a stop position at 0.5 the entire time. 
