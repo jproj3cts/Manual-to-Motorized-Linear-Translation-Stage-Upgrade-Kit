@@ -27,6 +27,8 @@ It can also serve as a tutorial on how to remotely control a 28BYJ-48 stepper mo
 
 ## Connecting Flexure
 
+<img src="Media/1.jpg" width=50% height=50% alt = "Connection" title="Connection">
+
 ## Device Operation
 
 ![Alt text]( Media/3.gif)
