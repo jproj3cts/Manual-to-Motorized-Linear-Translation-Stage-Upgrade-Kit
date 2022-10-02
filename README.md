@@ -18,3 +18,5 @@ A design for upgrading a manual linear translation stage to an automatic one, wh
 ## Connecting and Mounting Components
   
 ## Programing the Pico
+
+## Device Operation
