@@ -66,4 +66,4 @@ This process can be automated by connecting to 192.168.4.1?steps=N, where N is t
 
 ![gif]( Media/3.gif)
 
-This reliability is sustainable over many rotations. In A recent test the micrometer was rotated 20 times forward then 20 back for a total of 800 rotations whilst maintaining a stop position at 0.5 the entire time. 
+This reliability is sustainable over many rotations. In A recent test the micrometer was rotated 20 times forward then 20 back repeatedly for a total of 800 rotations whilst maintaining a stop position at 0.5 the entire time. 
