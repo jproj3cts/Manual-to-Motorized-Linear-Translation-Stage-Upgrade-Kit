@@ -1,8 +1,6 @@
 # Manual-to-Motorized-Linear-Translation-Stage-Upgrade-Kit, using the 28BYJ-48 stepper motor and a heat shrink flexure.
 The cheapest possible design for upgrading a manual linear translation stage to an automatic one, whilst retaining the original precision of the device. 
 
->>>The files for the design are available here but the project tutorial is currently a work in Progress.
-
 ## Intro
 
 This guide should walk you through the conversion of a manual linear translation stage to an automatic one, with a material cost on the order of ~$20. This is very economial considering the typical price of a motorised translation stage is around $1000, 4x that of the manual one.
