@@ -54,6 +54,9 @@ The heatshrink is suprisingly ridgid in the rotational direction and has no prob
 
 <img src="Media/1.jpg" width=50% height=50% alt = "Connection" title="Connection">
 
+### Alternative Connection: Gears
+Alternatively, the motor and micrometer can be connected using push fit gears. An easy way to fabricate these would be to laser cut them from acrylic sheet. If you would like to do this, the design files for said gears are provided in the design folder. The slot in the motor mounted gear is deliberately undersized so it can be filed to a close push fit and the inner diameter of the micrometer gear should be adjusted for the specific micrometer you see using.
+
 ## Device Operation
 
 After powering the pico, the device should automatically produce it's own wireles access point that can be connected to with a phone or computer in the usual way. After this, open any web browser and enter 192.168.4.1. This will take you to a form that will allow you to control the motor remotely.
