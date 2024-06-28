@@ -68,6 +68,6 @@ This reliability is sustainable over many rotations. In A recent test the microm
 
 ## Varients of The System
 Two varients of this system have already been produce and the code to run them is available in the Varient-code file. A brief explanation/tutorial on both of them is available below.
-# Multiple Motors
+### Multiple Motors
 
-# Many Wirelessly Networked Motors
+### Many Wirelessly Networked Motors
