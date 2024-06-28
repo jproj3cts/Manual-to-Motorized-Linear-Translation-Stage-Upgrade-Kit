@@ -65,3 +65,9 @@ This process can be automated by connecting to 192.168.4.1?steps=N, where N is t
 ![gif]( Media/3.gif)
 
 This reliability is sustainable over many rotations. In A recent test the micrometer was rotated 20 times forward then 20 back repeatedly for a total of 800 rotations whilst maintaining a stop position at 0.5 the entire time. 
+
+## Varients of The System
+Two varients of this system have already been produce and the code to run them is available in the Varient-code file. A brief explanation/tutorial on both of them is available below.
+# Multiple Motors
+
+# Many Wirelessly Networked Motors
