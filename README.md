@@ -59,6 +59,8 @@ Alternatively, the motor and micrometer can be connected using push fit gears. A
 
 <img src="Media/gears.PNG" width=50% height=50% alt = "Gears" title="Gears">
 
+The use of gears requires a correction if swapping directions as the motor needs to travel an extra distance before then coming into contact with the adjacent spoke. This correction is included in the variants of the system.
+
 ## Device Operation
 
 After powering the pico, the device should automatically produce it's own wireles access point that can be connected to with a phone or computer in the usual way. After this, open any web browser and enter 192.168.4.1. This will take you to a form that will allow you to control the motor remotely.
@@ -72,13 +74,22 @@ This process can be automated by connecting to 192.168.4.1?steps=N, where N is t
 This reliability is sustainable over many rotations. In A recent test the micrometer was rotated 20 times forward then 20 back repeatedly for a total of 800 rotations whilst maintaining a stop position at 0.5 the entire time. 
 
 ## Variants of The System
-Three variants of this system have already been produce and the code to run them is available in the Varient-code file. A brief explanation/tutorial on both of them is available below.
+Four variants of this system have already been produce and the code to run them is available in the Variant-code file. A brief explanation/tutorial on both of them is available below.
 ### Multiple Motors
 
 ### Many Wirelessly Networked Motors
 This variant uses all the same files as before but a new boot.py script as found in the networked-motor driver. It connects to the first device's wifi using the same wifi name and password. Then it can be controlled wirelessly by an additional device by entering the ip address of the new device into a web browser.
 
 ### Step Tracking Stopping Over-Extending of Micrometer
-This code allows for the current position of the micrometer to be stored in a textfile and read and updated while making sure that it does not go out of bounds. When first setting this up, it is important to enter the correct position on the tracking textfile, converting position to steps. This takes just a single number as shown in the example tracking.txt. For the 25mm micrometer, it has been set so that the 0 point is at 0.5mm (one rotation from 0mm) and the maximum is at 24.5mm which corresponds to 24576 steps. These bounds can be changed. Additionally, moving the motor clockwise (when attached by heat shrink or similar) reduces the amount on the micrometer so the f_step function minuses steps and therefore has the lower bound rather than upper. Therefore b_step is opposite to this.
+This code allows for the current position of the micrometer to be stored in a textfile and read and updated while making sure that it does not go out of bounds. A textfile is used rather than a variable in the code, allowing for the device to be switched on and off without losing its step count.
+
+When first setting this up, it is important to enter the correct position on the tracking textfile, converting position to steps. This takes just a single number as shown in the example tracking.txt. For the 25mm micrometer, it has been set so that the 0 point is at 0.5mm (one rotation from 0mm) and the maximum is at 24.5mm which corresponds to 24576 steps. These bounds can be changed. Additionally, moving the motor clockwise (when attached by heat shrink or similar) reduces the amount on the micrometer so the f_step function minuses steps and therefore has the lower bound rather than upper. Therefore b_step is opposite to this.
 
 Care needs to be taken when instead using gears and moving the motor clockwise moves the micrometer anti-clockwise so f_step and b_step do the opposite. In order to rectify this, you can either swap them so f_step is now minus or swap the bounds around and the + and - in new_pos.
+
+### Gear-Correction
+As briefly mentioned above the use of gears can cause issues when swapping directions as some of the inputted steps are then used to move the motor to touch the adjacent spoke. For the gears described and a motor which has 512 steps per rotation, this extra distance is 20 steps however it is recommended to callibrate this with your own system.
+
+This code also includes the Step Tracker, making sure that the steps added for the correction are then not added to the Step Tracker as they have not moved the micrometer however with simple adaption, this step tracker can be removed. 
+
+An additional textfile is needed (called 'direction.txt' as specified in code) to store the previous rotation direction, using f or b. It then reads the textfile to identify if the direction is changed and adds the correction to the steps and updates the textfile accordingly. Since this code is applicable to the motor, the bounds have also been swapped as detailed in the Step-Tracking section since clockwise rotation of the motor corresponds to an anti-clockwise rotation of the micrometer.
