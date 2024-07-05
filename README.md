@@ -87,7 +87,7 @@ When first setting this up, it is important to enter the correct position on the
 
 Care needs to be taken when instead using gears and moving the motor clockwise moves the micrometer anti-clockwise so f_step and b_step do the opposite. In order to rectify this, you can either swap them so f_step is now minus or swap the bounds around and the + and - in new_pos.
 
-#### Gear-Correction
+### Gear-Correction
 As briefly mentioned above the use of gears can cause issues when swapping directions as some of the inputted steps are then used to move the motor to touch the adjacent spoke. For the gears described and a motor which has 512 steps per rotation, this extra distance is 20 steps however it is recommended to callibrate this with your own system.
 
 This code also includes the Step Tracker, making sure that the steps added for the correction are then not added to the Step Tracker as they have not moved the micrometer however with simple adaption, this step tracker can be removed. 
