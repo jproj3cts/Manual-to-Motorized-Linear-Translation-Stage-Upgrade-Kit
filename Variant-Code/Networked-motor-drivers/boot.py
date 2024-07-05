@@ -15,7 +15,6 @@ along with Manual-to-Motorized-Linear-Translation-Stage-Upgrade-Kit.  If not, se
 This variant code allows you to connect a second raspberry pi pico w with it's own motor to the first raspberry pi using the first's wifi signal. Then it can be controlled by accessing the wifi on an additional device and inputting the new ip address. Both devices can be controlled simultaneously. 
 """
 
-#To wirelessly control access 192.168.4.1 while connected to the access point.
 
 # Define SSID and password for the access point. Make sure these match the other device
 ssid = "YOUR_NEWORKNAME_HERE"
