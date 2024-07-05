@@ -72,8 +72,13 @@ This process can be automated by connecting to 192.168.4.1?steps=N, where N is t
 This reliability is sustainable over many rotations. In A recent test the micrometer was rotated 20 times forward then 20 back repeatedly for a total of 800 rotations whilst maintaining a stop position at 0.5 the entire time. 
 
 ## Variants of The System
-Two variants of this system have already been produce and the code to run them is available in the Varient-code file. A brief explanation/tutorial on both of them is available below.
+Three variants of this system have already been produce and the code to run them is available in the Varient-code file. A brief explanation/tutorial on both of them is available below.
 ### Multiple Motors
 
 ### Many Wirelessly Networked Motors
 This variant uses all the same files as before but a new boot.py script as found in the networked-motor driver. It connects to the first device's wifi using the same wifi name and password. Then it can be controlled wirelessly by an additional device by entering the ip address of the new device into a web browser.
+
+### Step Tracking Stopping Over-Extending of Micrometer
+This code allows for the current position of the micrometer to be stored in a textfile and read and updated while making sure that it does not go out of bounds. For the 25mm micrometer, it has been set so that the 0 point is at 0.5mm (one rotation from 0mm) and the maximum is at 24.5mm which corresponds to 24576 steps. These bounds can be changed. Additionally, moving the motor clockwise (when attached by heat shrink or similar) reduces the amount on the micrometer so the f_step function minuses steps and therefore has the lower bound rather than upper. Therefore b_step is opposite to this.
+
+Care needs to be taken when instead using gears and moving the motor clockwise moves the micrometer anti-clockwise so f_step and b_step do the opposite. In order to rectify this, you can either swap them so f_step is now minus or swap the bounds around and the + and - in new_pos.
