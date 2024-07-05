@@ -80,14 +80,14 @@ Four variants of this system have already been produce and the code to run them 
 ### Many Wirelessly Networked Motors
 This variant uses all the same files as before but a new boot.py script as found in the networked-motor driver. It connects to the first device's wifi using the same wifi name and password. Then it can be controlled wirelessly by an additional device by entering the ip address of the new device into a web browser.
 
-### Step Tracking Stopping Over-Extending of Micrometer
+### Step Tracking for the Prevention of Over-Extention of the Micrometer
 This code allows for the current position of the micrometer to be stored in a textfile and read and updated while making sure that it does not go out of bounds. A textfile is used rather than a variable in the code, allowing for the device to be switched on and off without losing its step count.
 
 When first setting this up, it is important to enter the correct position on the tracking textfile, converting position to steps. This takes just a single number as shown in the example tracking.txt. For the 25mm micrometer, it has been set so that the 0 point is at 0.5mm (one rotation from 0mm) and the maximum is at 24.5mm which corresponds to 24576 steps. These bounds can be changed. Additionally, moving the motor clockwise (when attached by heat shrink or similar) reduces the amount on the micrometer so the f_step function minuses steps and therefore has the lower bound rather than upper. Therefore b_step is opposite to this.
 
 Care needs to be taken when instead using gears and moving the motor clockwise moves the micrometer anti-clockwise so f_step and b_step do the opposite. In order to rectify this, you can either swap them so f_step is now minus or swap the bounds around and the + and - in new_pos.
 
-### Gear-Correction
+## Gear-Correction
 As briefly mentioned above the use of gears can cause issues when swapping directions as some of the inputted steps are then used to move the motor to touch the adjacent spoke. For the gears described and a motor which has 512 steps per rotation, this extra distance is 20 steps however it is recommended to callibrate this with your own system.
 
 This code also includes the Step Tracker, making sure that the steps added for the correction are then not added to the Step Tracker as they have not moved the micrometer however with simple adaption, this step tracker can be removed. 
