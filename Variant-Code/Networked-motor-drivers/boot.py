@@ -162,8 +162,7 @@ html = """<!DOCTYPE html><html>
 </html>
 """
 
-# Connect to wifi of other raspberry pi pico W
-###   ADD connection jazz here ###
+# Connect to wifi of other raspberry pi pico w
 ap = network.WLAN(network.STA_IF)
 ap.ifconfig()
 ap.active(True)
@@ -184,7 +183,6 @@ while ap.isconnected()==False:
 
 #Use below to find out IP address so it can be used to connect to webpage to control the motor.
 print(ap.ifconfig())
-
 
 
 # Start up a tiny web server
